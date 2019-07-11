@@ -44,7 +44,9 @@ header .logo-area {
 header .logo-area a {
   text-decoration: none;
   font-size: 20px;
+
 }
+
 
 header .menu {
   display: inline-block;
@@ -68,13 +70,15 @@ header .icon-links {
 header .icon-links ul li {
   display: inline-block;
 }
-
+header .quick-options {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
 header .icon-links, .quick-options {
   display: inline-block;
   margin-left: -4px;
   padding-right: 30px;
   padding-left: 20px;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
+
 }
 
 header .icon-links .privacy {
